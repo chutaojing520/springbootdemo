@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+userinfo:
+  name: xiaowu
+  age: 27
+  brith: 1994/02/01
+  hobby:
+    - basketball
+    - paly game
+    - read book
+  map: {key1: value1,key2: value2}
+#  jobs: [{jobname: it,works:[java,sql]},{jobname: student,works:[book,sport]}]
+  jobs:
+    - {jobname: it,works:[java,sql]}
+    - {jobname: student,works:[book,sport]}
+
+
+
